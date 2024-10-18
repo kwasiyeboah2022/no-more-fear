@@ -1,0 +1,500 @@
+   95  cd Desktop
+   96  cd /mingw64/
+   97  ls
+   98  cd ..
+   99  cd /home
+  100  cd ~/Desktop/
+  101  cd ..
+  102   cd Desktop/
+  103  mkdir greenhouse
+  104  ls
+  105  cd greenhouse/
+  106  pw
+  107  pwd
+  108  mkdir winter summer
+  109  ls
+  110  mkdir summer/seeds
+  111  ls summer/
+  112  clear -x
+  113  mkdir winter/seeds/lettuce
+  114  mkdir -p winter/seeds/lettuce
+  115  ls winter/seeds/
+  116  cd summer/
+  117  ls
+  118  cd ..
+  119  cd winter/
+  120  ls
+  121  cd seeds/
+  122  ls
+  123  cd ../..
+  124  cd summer/
+  125  ls
+  126  cd seeds/
+  127  ls
+  128  touch squash
+  129  ls
+  130  touch melon.txt
+  131  ls
+  132  touch apple.pdf
+  133  ls
+  134  ls -l
+  135  mkdir DELETE
+  136  ls
+  137  rm DELETE/
+  138  ls
+  139  rm -r DELETE/
+  140  ls
+  141   cd ..
+  142  clear
+  143  touch cat dog carrot blue green
+  144  ls
+  145  rm blue 
+  146  ls
+  147  rm -v carrot dog carrot green
+  148  ls
+  149  touch cat dog carrot blue green
+  150  ls
+  151  ls seeds/
+  152  rm -ri seeds/
+  153  ls
+  154  ls seeds/
+  155  echo "This is my text" > melon.txt
+  156  cat melon.txt 
+  157  echo "This is my text2" > melon.txt
+  158  cat melon.txt 
+  159  echo "This is my text3" >> melon.txt
+  160  cat melon.txt 
+  161  ls
+  162  ls seeds/
+  163  cat melon.txt >> seeds/melon.txt 
+  164  ls seeds/
+  165  ls seeds/ cat melon.txt 
+  166  cd seeds/ cat melon.txt 
+  167  cd seeds/; cat melon.txt 
+  168  history
+  169  cd ls /c/Users/Prophet\ Yeboah/Documents//touch text6.txt
+  170  cd /c/Users/Prophet\ Yeboah/Documents/ touch text6.txt
+  171  cd ~/c/Users/Prophet\ Yeboah/Documents/ touch text6.txt
+  172  cd; ~/c/Users/Prophet\ Yeboah/Documents/ touch text6.txt
+  173  ls
+  174  cls
+  175  clear
+  176  ls
+  177  cd Desktop/
+  178  ls
+  179  clear -x
+  180  cd linuxCommands/
+  181  ls
+  182  mv file1.txt wildlife/
+  183  ls wildlife/
+  184  ls
+  185  touch file5.txt file6.txt
+  186  ls
+  187  mv -v file5.txt file6.txt wildlife/
+  188  ls wildlife/
+  189  touch file7.txt file4.txt
+  190  ls
+  191  mv -v file4.txt file7.txt Wildlife/
+  192  ls
+  193  ls
+  194  ls wildlife/
+  195  touch file8.txt file9.txt
+  196  mv -v file4new.txt file7new.txt Wildlife/
+  197  mv -v file4.txt file4new.txt
+  198  ls
+  199  mv -v file8.txt file8new.txt
+  200  ls
+  201  mv wildlife/ WILDLIFE
+  202  ls
+  203  mv WILDLIFE/ ../
+  204  ls ../
+  205  cp -r ../WILDLIFE/ 
+  206  cp -r ../WILDLIFE/ .
+  207  ls
+  208  ls ../
+  209  ls WILDLIFE/ 
+  210  cd WILDLIFE/; cat file1.txt >> file1new.txt
+  211  ls
+  212  cd ../..; cd wildlife
+  213  ls
+  214  cd ..
+  215  cd linuxCommands/WILDLIFE/
+  216  cd ../..; cd wildlife; cat file1.txt >> cd greenhouse/new.txt
+  217  cd ../..; cd wildlife; cat file1.txt >> cd greenhouse/
+  218  cd Desktop/
+  219  clear -x
+  220  cd linuxCommands/
+  221  ls
+  222  pwd >> pwd.txt
+  223  ls
+  224  cat pwd
+  225  cat pwd.txt 
+  226  history >> history.txt
+  227  ls
+  228  cat history.txt 
+  229  clear -x
+  230  tail history -n 5 > history.txt
+  231  history tail -n 5 > history.txt
+  232  history tail history -n 5 > history.txt
+  233  head history
+  234  head history.txt
+  235  cat history.txt 
+  236  ls
+  237  cat history.txt 
+  238  history > history.txt 
+  239  cat history.txt 
+  240  clear -x
+  241  head history.txt 
+  242  tail history.txt 
+  243  tail history.txt -n 15
+  244  tail history.txt -n 15 >> newhistory.txt
+  245  cat newhistory.txt 
+  246  history
+  247  cd Desktop/
+  248  clear
+  249  ls
+  250  history > WILDLIFE/history_backup.txt
+  251  ls WILDLIFE/
+  252  cd WILDLIFE/ cat history_backup.txt
+  253  cd WILDLIFE/; cat history_backup.txt
+  254  echo "USERNAME=STEVE" > config.txt
+  255  ls
+  256  echo "PASSWORD=123" >> config.txt
+  257  cat config.txt 
+  258  echo > config.txt 
+  259  cat config.txt 
+  260  echo "PASSWORD=123" >> config.txt
+  261  echo "USERNAME=STEVE" > config.txt
+  262  wc config.txt 
+  263  cat config.txt 
+  264  echo "PASSWORD=123" >> config.txt
+  265  cat config.txt 
+  266  wc config.txt 
+  267  wc -l config.txt 
+  268  wc -w config.txt 
+  269  clear -x
+  270  ls -l
+  271  ls -l || wc
+  272  ls -l | wc
+  273  cd ..
+  274  ls -al | wc
+  275  ls -l
+  276  ls -l | wc
+  277  cd WILDLIFE/
+  278  ls
+  279  clear -x
+  280  cat file1.txt file2.txt | wc -l > count.txt
+  281  cat count.txt 
+  282  cat file1.txt file2.txt 
+  283  cat file1.txt file2.txt | wc -l > count.txt
+  284  cat count.txt 
+  285  wc -l file1.txt 
+  286  wc -l file2.txt 
+  287  cat file1.txt 
+  288  wc file1.txt 
+  289  ls
+  290  cat file1.txt file2.txt > everything.txt
+  291  sort everything.txt 
+  292  cat everything.txt 
+  293  cat num
+  294  cat nums
+  295  cat nums.txt
+  296  ls
+  297  cat nums.txt 
+  298  sort nums.txt 
+  299  sort -n nums.txt 
+  300  sort -nr nums.txt 
+  301  sort -nu nums.txt 
+  302  sort nums.txt | uniq
+  303  sort nums.txt | uniq -d
+  304  sort -n nums.txt | uniq -d
+  305  sort -n nums.txt | uniq
+  306  sort -n nums.txt | uniq -u
+  307  sort -n nums.txt | uniq -c
+  308  sort nums.txt | uniq -c
+  309  echo ~
+  310  pwd
+  311  cd Documents/
+  312  ls
+  313  cd class2/
+  314  ls
+  315  clear
+  316  pwd
+  317  Git clone github.com/agyap3/kaclass2.git vmachine
+  318  git clone github.com/agyap3/kaclass2.git vmachine
+  319  cd Documents/class2/vmachine/
+  320  vagrant up
+  321  cd Desktop/
+  322  alias myls='ls -la'
+  323  myls 
+  324  ls -la
+  325  myls 
+  326  clear
+  327  alias c='clear'
+  328  c
+  329  history 
+  330  c
+  331  alias
+  332  ll
+  333  ls
+  334  c
+  335  ps auxf | sort -nr -k 3 | head -10
+  336  alias pscpu10 = 'ps auxf | sort -nr -k 3 | head -10'
+  337  alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
+  338  pscpu10 
+  339  alias pscpu10='ps auxf | sort -nr | head -10'
+  340  pscpu10 
+  341  alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
+  342  alias
+  343  pwd
+  344  cd ..
+  345  c
+  346  ls
+  347  ls -la
+  348  nano .bashrc
+  349  ls -la | grep '.bashrc'
+  350  ls -la | grep '.bash_history'
+  351  count
+  352  c
+  353  cd Desktop/
+  354  alias lscurrent='ls pwd'
+  355  lscurrent 
+  356  alias lscurrent='ls $pwd'
+  357  lscurrent 
+  358  cd WILDLIFE/
+  359  lscurrent 
+  360  ls
+  361  whoami
+  362  cd ../..
+  363  cd /bin/
+  364  Ncal
+  365  ncal
+  366  ls -l ncal
+  367  ls -l 
+  368  cd ..
+  369  cd ..
+  370  ls -l 
+  371  find . -name '*not*'
+  372  cd Desktop
+  373  ls
+  374  cd mingw64/
+  375  cd Desktop/
+  376  find *.???*
+  377  cd ..
+  378  c
+  379  clear
+  380  cd Documents/class2/vmachine/
+  381  vagrant up
+  382  cd ../..
+  383  cd ..
+  384  clear
+  385  df -h
+  386  cd Documents/class2/vmachine/
+  387  vagrant up
+  388  cd Documents/class2/vmachine/
+  389  vagrant up
+  390  cd Documents/
+  391  clear
+  392  which git
+  393  git clone https://github.com/agyap3/kaclass2.git vmachine
+  394  vagrant status
+  395  ls -l
+  396  ls -l vmachine/
+  397  cd vmachine/
+  398  vagrant up
+  399  cd ..
+  400  ls -l
+  401  rm -r vmachine/
+  402  ls -l
+  403  cd class/
+  404  clear
+  405  git clone https://github.com/agyap3/kaclass2.git vmachines
+  406  rm -r vmachine/
+  407  ls -l
+  408  rm -r vmachines/
+  409  clear
+  410  cd ..
+  411  mv class class2
+  412  ls -l
+  413  clear
+  414  ls -l
+  415  cd class2/
+  416  clear
+  417  git clone https://github.com/agyap3/kaclass2.git vmachines
+  418  ls -l
+  419  cd vmachines/
+  420  vagrant up
+  421  cd Documents/class2/vmachines/
+  422  vagrant up
+  423  vagrant destroy
+  424  vagrant up
+  425  vagrant up
+  426  vagrant up
+  427  cd Documents/class2/vmachines/
+  428  vagrant up
+  429  vagrant status
+  430  vagrant up
+  431  cd Documents/class2/vmachines/
+  432  vagrant up
+  433  su
+  434  su -
+  435  su passwd
+  436  clear
+  437  vagrant up
+  438  vagrant up
+  439  cd Documents/class2/vmachines/
+  440  vagrant up
+  441  cd Documents/class2/vmachines/
+  442  vagrant up
+  443  cd Documents/class2/vmachines/
+  444  vagrant up
+  445  ip addr
+  446  ssh steve@192.168.28.5
+  447  ssh vagrant@192.168.28.5
+  448  ssh 
+  449  ssh -version
+  450  ssh --version
+  451  ls
+  452  cd Desktop/
+  453  ls
+  454  ssh -i EC2\ Tutorial.pem ec2-user@51.20.1.235
+  455  ssh -i ec2-user@13.51.198.198
+  456  cd Desktop/
+  457  cd ~/Downloads/
+  458  ls
+  459  clear
+  460  ls
+  461  cd
+  462  cd Desktop/
+  463  ls
+  464  ssh -i linuxproject.pem ec2-user@13.51.198.198
+  465  pwd
+  466  clear
+  467  ssh -i linuxpractice.pem ec2-user@16.171.171.14
+  468  ssh -i linuxpractice.pem ec2-user@16.171.171.14
+  469  c
+  470  clear
+  471  cd Documents/
+  472  vagrant up
+  473  vagrant init
+  474  cd class2/vmachines/
+  475  vagrant up
+  476  pwd
+  477  cd Documents/
+  478  ls
+  479  ls -l ~/Downloads/
+  480  cd
+  481  mkdir AWS_Stuff
+  482  cd AWS_Stuff/
+  483  cp ~/Downloads/class2key.pem .
+  484  ls
+  485  alias c='clear'
+  486  c
+  487  ls
+  488  file class2key.pem 
+  489  ssh -i class2key.pem ec2-user@16.170.158.113
+  490  c
+  491  ll
+  492  chmod 400 class2key.pem 
+  493  ssh -i class2key.pem ec2-user@16.170.158.113
+  494  cd Desktop/
+  495  cd ~/Downloads/
+  496  ls
+  497  ssh -i class2key.pem ec2-user@51.20.133.247
+  498  git --version
+  499  git status
+  500  git clone https://github.com/kwasiyeboah2022/my-project.git
+  501  ls -l my-project/
+  502  git status
+  503  git init
+  504  git status
+  505  cd cd ../..
+  506  cd ../..
+  507  cd Desktop/
+  508  ls
+  509  ls -l
+  510  clear
+  511  rm -r _repos/
+  512  mkdir _repos
+  513  cd _repos/
+  514  git clone https://github.com/kwasiyeboah2022/my-project.git
+  515  cd my-project/
+  516  git status
+  517  ls
+  518  git status
+  519  ls
+  520  rm index.txt.txt 
+  521  touch index.txt
+  522  ls
+  523  clear
+  524  git add index.txt 
+  525  git status
+  526  git commit -m "Third Commit"
+  527  git config --global user.email "akuamoahyaw2015@gmail.com"
+  528  git config --global user.name "kwasiyeboah"
+  529  git commit -m "Third Commit"
+  530  git status
+  531  git log --all --decorate --oneline --graph
+  532  git push origin main
+  533  git pull
+  534  touch echo.txt
+  535  ls
+  536  git add .
+  537  git status
+  538  git commit -m "Fifth Commit"
+  539  git push
+  540  git fetch
+  541  git merge origin
+  542  git status 
+  543  git add .
+  544  git status 
+  545  git commit -a -m "Seventh Commit Edited Steve"
+  546  git status 
+  547  git log --all --decorate --oneline --graph
+  548  git reflog
+  549  git push
+  550  history > gitcommand.txt
+  551  git status
+  552  git add .
+  553  ls
+  554  git commit -a -m "Eighth Commit"
+  555  git status
+  556  git push
+  557  cd ../No\ Fear/
+  558  ls
+  559  git init
+  560  ls
+  561  touch alpha.txt
+  562  git add alpha.txt 
+  563  git status
+  564  git commit -m "First Commit"
+  565  touch beta.txt
+  566  git add .
+  567  git commit -m "Second Commit"
+  568  touch steve.txt
+  569  git add .
+  570  git commit -m "Third Commit"
+  571  touch devo.txt
+  572  git add .
+  573  git commit -m "Fourth Commit"
+  574  git reflog
+  575  git reset --hard 5e48ca3
+  576  git reflog
+  577  git reset --hard 36804ba
+  578  git reset --hard d7267a9
+  579  git reflog
+  580  git revert 5e48ca3
+  581  git cherry-pick 5e48ca3
+  582  git branch -M main
+  583  git remote add github https://github.com/kwasiyeboah2022/no-more-fear.git
+  584  git push -u github main
+  585  history | wc -l
+  586  history 
+  587  history | wc -l
+  588  cat -b history
+  589  cat -b | history
+  590  history 
+  591  history tail -n 98
+  592  history tail  98
+  593  tail -n 98 history
+  594  history > gitcommand.txt
